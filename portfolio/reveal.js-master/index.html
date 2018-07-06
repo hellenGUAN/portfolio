@@ -21,8 +21,10 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 		<style>
-	    	canvas{background-color: rgb(102,153,161);
-	    		   color: rgb(194,192,191)}
+	    	canvas{
+	    		background-color: rgb(102,153,161);
+	    		color: rgb(194,192,191)
+	    	}
 	        #here1, #here2 {
 	        	font-family: 'Zapfino', 'TypeLand.com LehBien Lehsho Trial';
 	        	color: rgb(102,153,161);
@@ -47,7 +49,7 @@
 						var ctx = canvas.getContext("2d");
 						ctx.font = "166px BlauKai, '標楷體', 'Comic Sans MS'";
 						ctx.fillStyle = "rgb(218,201,166)";
-						ctx.strokeStyle = "rgb(218,201,166)";
+						ctx.strokeStyle = "#fdf6e3";
 						ctx.textAlign = "center";
 						ctx.strokeText("錆浅葱", canvas.width/2, canvas.height/1.5);
 					</script>
@@ -69,17 +71,17 @@
 						終端機 php -S localhost:8080<br>
 						瀏覽器 http://localhost:8080/HTMLDemo.html
 					</p>
-					<iframe src="../labs/lab1/HTMLDemo.html" width="1200" height="600">
+					<iframe src="./labs/lab1/HTMLDemo.html" width="1200" height="600">
 					</iframe>
 				</section>
                 <section>
                 	<h6>Lab 2:內部ＣＳＳ</h6>
-                	<iframe src="../labs/lab2/inheritance.html" width="1200" height="600">
+                	<iframe src="./labs/lab2/inheritance.html" width="1200" height="600">
                 	</iframe>
                 </section>
                 <section>
                 	<h6>Lab 3:外部ＣＳＳ</h6>
-                	<iframe src="../labs/lab3/inheritance.html" width="1200" height="600">
+                	<iframe src="./labs/lab3/inheritance.html" width="1200" height="600">
                 	</iframe>
                 </section>
                 <section>
@@ -91,9 +93,15 @@
                         <span class="fragment">能看見全世界</span>
                     </p>
                     <br>
+                    <audio src="./labs/lab4/Audio.mp3" controls autoplay></audio>
+                    <br>
                     <audio controls autoplay>
-                    	<source src="../labs/lab4/Spring Day.mp3" />
+                    	<source src="./labs/lab4/Ei Ei.mp3" />
                     </audio>
+                </section>
+                <section>
+                	<h6>Lab 5:Border Image</h6>
+                	<iframe src="./labs/lab5/border-image.html" width="1200" height="600"></iframe>
                 </section>
 			</div>
 		</div>
