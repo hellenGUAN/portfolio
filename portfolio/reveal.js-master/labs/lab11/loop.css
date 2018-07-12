@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+div { 
+	border-width: 1px ;
+	border:2px;
+	border-style: solid;
+	border-color:rgb(0,0,0);
+	padding:3px;
+	margin: 10px;
+	float: left;
+	color: #586e75;
+	background-color: white;
+ }
+
+em, strong {
+ 	color: red;
+ }
+
+p {
+	font-family: ‘cwTeXKai’, serif;
+}
+
+p:hover, h1:hover {
+    background-color: #fdf6e3;
+};
+
+p:first-letter {
+ 	font-size: 24pt;
+    color: lightblue;
+}
